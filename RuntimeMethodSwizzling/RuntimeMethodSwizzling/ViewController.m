@@ -21,11 +21,17 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    Animal * animal = [[Animal alloc] init];
-    [animal animalInstanceMethod];
+    NSArray * mutA = @[@"3",@"2"];
+    NSLog(@"%@",[mutA objectAtIndex:3]);
     
-    Cat * cat = [[Cat alloc] init];
-    [cat animalInstanceMethod];
+    
+    
+//    Cat * cat = [[Cat alloc] init];
+//    [cat animalInstanceMethod];
+//
+//    Animal * animal = [[Animal alloc] init];
+//    [animal animalInstanceMethod];
+
     
 }
 

@@ -10,4 +10,9 @@
 
 @implementation Cat
 
+//- (void)animalInstanceMethod{
+//    NSLog(@"cat instance method:%s",__func__);
+//}
+
+
 @end

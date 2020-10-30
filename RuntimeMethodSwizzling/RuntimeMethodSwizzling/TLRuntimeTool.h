@@ -15,6 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 +(void)runtimeMethodSwizzlingWithClass:(Class)targetCls originSEL:(SEL)oriSel swizzlingSEL:(SEL)swizzlingSel;
 
++(void)runtimeClassMethodSwizzlingWithClass:(Class)targetCls originSEL:(SEL)oriSel swizzlingSEL:(SEL)swizzlingSel;
+
 @end
 
 NS_ASSUME_NONNULL_END

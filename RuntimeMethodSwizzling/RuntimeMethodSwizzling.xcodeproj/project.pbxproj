@@ -18,6 +18,7 @@
 		7211441D25496E3A001C9B21 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 7211441C25496E3A001C9B21 /* Animal.m */; };
 		7211442025496E71001C9B21 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 7211441F25496E71001C9B21 /* Cat.m */; };
 		7211442625496F15001C9B21 /* Cat+small.m in Sources */ = {isa = PBXBuildFile; fileRef = 7211442525496F15001C9B21 /* Cat+small.m */; };
+		72114429254BB9F5001C9B21 /* NSArray+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 72114428254BB9F5001C9B21 /* NSArray+AvoidCrash.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		7211441F25496E71001C9B21 /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 		7211442425496F15001C9B21 /* Cat+small.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cat+small.h"; sourceTree = "<group>"; };
 		7211442525496F15001C9B21 /* Cat+small.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Cat+small.m"; sourceTree = "<group>"; };
+		72114427254BB9F5001C9B21 /* NSArray+AvoidCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+AvoidCrash.h"; sourceTree = "<group>"; };
+		72114428254BB9F5001C9B21 /* NSArray+AvoidCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+AvoidCrash.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				7211441C25496E3A001C9B21 /* Animal.m */,
 				7211441E25496E71001C9B21 /* Cat.h */,
 				7211441F25496E71001C9B21 /* Cat.m */,
+				72114427254BB9F5001C9B21 /* NSArray+AvoidCrash.h */,
+				72114428254BB9F5001C9B21 /* NSArray+AvoidCrash.m */,
 				7211442425496F15001C9B21 /* Cat+small.h */,
 				7211442525496F15001C9B21 /* Cat+small.m */,
 				72114418254967F3001C9B21 /* TLRuntimeTool.h */,
@@ -172,6 +177,7 @@
 				7211442025496E71001C9B21 /* Cat.m in Sources */,
 				7211440125496728001C9B21 /* AppDelegate.m in Sources */,
 				7211441D25496E3A001C9B21 /* Animal.m in Sources */,
+				72114429254BB9F5001C9B21 /* NSArray+AvoidCrash.m in Sources */,
 				721144122549672B001C9B21 /* main.m in Sources */,
 				7211440425496728001C9B21 /* SceneDelegate.m in Sources */,
 			);

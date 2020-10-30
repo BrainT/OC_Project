@@ -10,9 +10,9 @@
 
 @implementation Animal
 
-//- (void)animalInstanceMethod{
-//    NSLog(@"animal instance method:%s",__func__);
-//}
+- (void)animalInstanceMethod{
+    NSLog(@"animal instance method:%s",__func__);
+}
 
 + (void)animalClassMethod{
     NSLog(@"animal class metohd: %s",__func__);
